@@ -1,0 +1,63 @@
+<link href="https://fonts.googleapis.com/css?family=Cutive+Mono" rel="stylesheet">
+
+<aside class="logo">
+
+	{% assign link = '/' %}
+	{% assign prompt = 'Back to Index' %}
+
+	<a href="{{ link | prepend: site.baseurl | prepend: site.url }}">
+		<img src="{{ site.logo_url }}" class="logo-avatar">
+	</a>
+	<span class="logo-prompt code">{{ prompt }}</span>
+</aside>
+
+<aside class="menu">
+
+	<ul class="top-menu">
+		{% if page.url != '/researches' %}
+			{% assign link = '/researches' %}
+			<li> <a href="{{ link | prepend: site.baseurl | prepend: site.url }}"> Research </a> </li>
+		{% else %}
+			<li style="font-weight:bold;"> <a> Research </a> </li>
+		{% endif %}
+		{% if page.url != '/projects' %}
+			{% assign link = '/projects' %}
+			<li> <a href="{{ link | prepend: site.baseurl | prepend: site.url }}"> Projects </a> </li>
+		{% else %}
+			<li style="font-weight:bold;"> <a> Projects </a> </li>
+		{% endif %}
+		{% if page.url != '/cv' %}
+			{% assign link = '/cv' %}
+			<li> <a href="{{ link | prepend: site.baseurl | prepend: site.url }}"> CV </a> </li>
+		{% else %}
+			<li style="font-weight:bold;"> <a> CV </a> </li>
+		{% endif %}
+		{% if page.url != '/teaching' %}
+			{% assign link = '/teaching' %}
+			<li> <a href="{{ link | prepend: site.baseurl | prepend: site.url }}"> Teaching </a> </li>
+		{% else %}
+			<li style="font-weight:bold;"> <a> Teaching </a> </li>
+		{% endif %}
+	</ul>
+	<ul class="bottom-menu">
+		{% if page.url != '/wassup' %}
+			{% assign link = '/wassup' %}
+			<li> <a href="{{ link | prepend: site.baseurl | prepend: site.url }}"> Wassup? </a> </li>
+		{% else %}
+			<li style="font-weight:bold;"> <a> Wassup? </a> </li>
+		{% endif %}
+		{% if page.url != '/about' %}
+			{% assign link = '/about' %}
+			<li> <a href="{{ link | prepend: site.baseurl | prepend: site.url }}"> About </a> </li>
+		{% else %}
+			<li style="font-weight:bold;"> <a> About </a> </li>
+		{% endif %}
+		{% if page.url != '/contact' %}
+			{% assign link = '/contact' %}
+			<li> <a href="{{ link | prepend: site.baseurl | prepend: site.url }}"> Contact </a> </li>
+		{% else %}
+			<li style="font-weight:bold;"> <a> Contact </a> </li>
+		{% endif %}
+	</ul>
+
+</aside>

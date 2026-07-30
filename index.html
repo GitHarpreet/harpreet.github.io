@@ -1,0 +1,60 @@
+---
+layout: default
+---
+
+<section>
+
+## Welcome to my website!
+
+I am a third year PhD student at the [Department of Economics](https://www.mcgill.ca/economics/), [McGill University](https://www.mcgill.ca/economics/).
+
+I am interested in development, financial frictions, and structural models. My research explores how credit access, political institutions, and social identity shape household and firm decisions. I am passionate about combining data, theory, and field insights to study inequality, and labor and firm productivity.
+
+I received the doctoral training award from the Quebec Government (FRQSC) in 2024. Before joining the PhD program I worked as a senior Research Associate at the PGRP team in J-PAL South Asia. I also worked as a Research Fellow at the Verghese Kurien Policy Lab at Institute of Rural Management Anand. I obtained my Masters from Delhi School of Economics and obtained my Bachelor degree in Physics, Mathematics.
+
+Econ PhD math camp [notes](https://github.com/GitHarpreet/Notes/blob/main/Econ_PhD_Math_Camp_notes.pdf) - 2023
+
+Econ first year Macro lecture [notes](https://github.com/GitHarpreet/Notes/blob/main/Graduate_Macroeconomics_Notes.pdf) - 2024
+
+The projects I am currently working on are here: [Projects]({{ "/projects" | prepend: site.baseurl | prepend: site.url }})
+
+Feel free to contact me to talk about [research]({{ "/researches" | prepend: site.baseurl | prepend: site.url }}), sports, or anything interesting [(here)](https://sites.google.com/view/hpsingh/booking).
+
+I started writing blogs on Economics in day to day life and also on PhD admission and PhD life, bi-weekly on Substack. [Substack link](https://harpreetsingh511.substack.com/)
+
+<div class="divider"></div>
+
+</section>
+
+<section>
+
+	<div class="center">
+		<h1 class="title">Recent Activites</h1>
+	</div>
+
+	<div class="divider"></div>
+
+	{% assign sorted = ((site.documents | sort: date) | reverse) %}
+	{% assign recent_activities = "" | split: "/" %}
+	{% for post in sorted limit:5 %}
+		{% assign recent_activities = recent_activities | push: post %}
+	{% endfor %}
+	{% assign recent_activities = (recent_activities | group_by: "type") %}
+	{% for group in recent_activities %}
+		{% assign anitem = group.items | first %}
+		<h3 class="code" style="text-transform: capitalize;">{{ anitem.type }}</h3>
+		{% for item in group.items %}
+			<ul>
+				<li>
+					<div class="title">
+						<a href="{{ item.url | prepend: site.baseurl | prepend: site.url }}">
+							<img src="{{ item.imageurl }}" alt="" style="width: 100%;">
+							{{ item.title }}
+						</a>
+					</div>
+				</li>
+			</ul>
+    {% endfor %}
+	{% endfor %}
+
+</section>
