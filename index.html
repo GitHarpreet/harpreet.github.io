@@ -1,60 +1,256 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harpreet Singh</title>
 
-<section>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css?v=20260730">
+</head>
+<body class="has-sidebar">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Harpreet Singh</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="research.html">Research</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="notes.html">Notes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cv.html">CV</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="talks.html">Talks</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="useful-links.html">Useful Links</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="outdoor.html">Outdoor</a>
+                    </li>
+                    <li class="nav-item ms-lg-2">
+                        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+                            <i class="bi bi-moon-stars-fill"></i>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-## Welcome to my website!
+    <!-- Main Content -->
+    <div class="container-fluid">
+        <div class="row">
+            <aside class="col-lg-2 col-md-3 sidebar-left">
+                <div class="sidebar-content sticky-top">
+                    <div class="text-center mb-4">
+                        <a href="index.html" aria-label="Home"><img src="images/profile/headshot.svg" alt="Harpreet Singh" class="profile-img rounded-circle img-fluid"></a>
+                    </div>
+                    <div class="text-center mb-4">
+                        <h4 class="name">Harpreet Singh</h4>
+                        <p class="title text-muted">PhD Candidate, Economics</p>
+                        <p class="affiliation"><a href="https://www.mcgill.ca/economics/" target="_blank" rel="noopener noreferrer">Department of Economics</a></p>
+                        <p class="affiliation"><a href="https://www.mcgill.ca/economics/" target="_blank" rel="noopener noreferrer">McGill University</a></p>
+                    </div>
+                    <div class="social-links">
+                        <div class="d-flex flex-wrap gap-2">
+                            <a href="mailto:singh.harpreetsingh511@gmail.com" class="btn btn-outline-primary btn-sm" aria-label="Email" title="Email"><i class="bi bi-envelope-fill"></i></a>
+                            <a href="https://github.com/GitHarpreet" class="btn btn-outline-primary btn-sm" target="_blank" rel="noopener noreferrer" aria-label="GitHub" title="GitHub"><i class="bi bi-github"></i></a>
+                            <a href="https://www.linkedin.com/in/singh-harpreet/" class="btn btn-outline-primary btn-sm" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                            <a href="https://harpreetsingh511.substack.com/" class="btn btn-outline-primary btn-sm" target="_blank" rel="noopener noreferrer" aria-label="Substack Blog" title="Substack Blog"><i class="bi bi-journal-richtext"></i></a>
+                            <a href="https://www.strava.com/athletes/39773498" class="btn btn-outline-primary btn-sm" target="_blank" rel="noopener noreferrer" aria-label="Strava" title="Strava"><i class="bi bi-bicycle"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </aside>
 
-I am a third year PhD student at the [Department of Economics](https://www.mcgill.ca/economics/), [McGill University](https://www.mcgill.ca/economics/).
+            <main class="col-lg-10 col-md-9 main-content">
+                <!-- Bio Section -->
+                <section class="bio-section mb-5">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <h2 class="section-heading mb-4">About Me</h2>
+                            <p class="lead">
+                                Welcome! I am a third-year PhD student in the <a href="https://www.mcgill.ca/economics/" target="_blank" rel="noopener noreferrer">Department of Economics</a> at <a href="https://www.mcgill.ca/economics/" target="_blank" rel="noopener noreferrer">McGill University</a>.
+                            </p>
+                            <p>
+                                I am interested in development, financial frictions, and structural models. My research explores how credit access, political institutions, and social identity shape household and firm decisions. I am passionate about combining data, theory, and field insights to study inequality, and labor and firm productivity.
+                            </p>
+                            <p>
+                                I received the doctoral training award from the Quebec Government (FRQSC) in 2024. Before joining the PhD program I worked as a senior Research Associate at the PGRP team in J-PAL South Asia. I also worked as a Research Fellow at the Verghese Kurien Policy Lab at Institute of Rural Management Anand. I obtained my Masters from Delhi School of Economics and my Bachelor's degree in Physics and Mathematics.
+                            </p>
+                            <p class="mb-0">
+                                I write bi-weekly on Substack about Economics in day-to-day life, and about PhD admissions and PhD life &mdash; <a href="https://harpreetsingh511.substack.com/" target="_blank" rel="noopener noreferrer">read it here</a>. Feel free to <a href="https://sites.google.com/view/hpsingh/booking" target="_blank" rel="noopener noreferrer">book time with me</a> to talk about research, sports, or anything interesting.
+                            </p>
+                        </div>
+                    </div>
+                </section>
 
-I am interested in development, financial frictions, and structural models. My research explores how credit access, political institutions, and social identity shape household and firm decisions. I am passionate about combining data, theory, and field insights to study inequality, and labor and firm productivity.
+                <!-- Recent Research Section -->
+                <section class="papers-section">
+                    <h2 class="section-heading mb-4">Research Highlights</h2>
+                    <div class="row g-4">
+                        <div class="col-xl-3 col-lg-4 col-md-6">
+                            <div class="card paper-card h-100 shadow-sm">
+                                <img src="images/papers/day-nrlm-report.svg" class="card-img-top" alt="DAY-NRLM Technical Report">
+                                <div class="card-body">
+                                    <h5 class="card-title">Status of DAY-NRLM Affiliated Rural Enterprises: A Technical Report</h5>
+                                    <p class="text-muted small mb-2"><strong>Author:</strong> Harpreet Singh</p>
+                                    <p class="text-muted small mb-3"><em>World Bank Report</em>, 2024</p>
+                                    <div class="mt-3">
+                                        <a href="research.html#day-nrlm-report" class="btn btn-primary btn-sm">Read More</a>
+                                        <a href="https://documents1.worldbank.org/curated/en/099062524230539114/pdf/P177443117a9960d41bd4410b325e2f985a.pdf" class="btn btn-outline-secondary btn-sm" target="_blank" rel="noopener noreferrer">
+                                            <i class="bi bi-file-earmark-pdf"></i> PDF
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-I received the doctoral training award from the Quebec Government (FRQSC) in 2024. Before joining the PhD program I worked as a senior Research Associate at the PGRP team in J-PAL South Asia. I also worked as a Research Fellow at the Verghese Kurien Policy Lab at Institute of Rural Management Anand. I obtained my Masters from Delhi School of Economics and obtained my Bachelor degree in Physics, Mathematics.
+                        <div class="col-xl-3 col-lg-4 col-md-6">
+                            <div class="card paper-card h-100 shadow-sm">
+                                <img src="images/papers/day-nrlm-eval.svg" class="card-img-top" alt="DAY-NRLM Program Evaluation">
+                                <div class="card-body">
+                                    <h5 class="card-title">Program Evaluation of DAY-NRLM: Long-Term Welfare Impacts on Rural Households</h5>
+                                    <p class="text-muted small mb-2"><strong>Author:</strong> Harpreet Singh</p>
+                                    <p class="text-muted small mb-3"><em>World Bank Report</em>, 2024</p>
+                                    <div class="mt-3">
+                                        <a href="research.html#day-nrlm-eval" class="btn btn-primary btn-sm">Read More</a>
+                                        <a href="https://documents1.worldbank.org/curated/en/099062524230550523/pdf/P1774431bcc2b90d9186ed1424a47c857a0.pdf" class="btn btn-outline-secondary btn-sm" target="_blank" rel="noopener noreferrer">
+                                            <i class="bi bi-file-earmark-pdf"></i> PDF
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-Econ PhD math camp [notes](https://github.com/GitHarpreet/Notes/blob/main/Econ_PhD_Math_Camp_notes.pdf) - 2023
+                        <div class="col-xl-3 col-lg-4 col-md-6">
+                            <div class="card paper-card h-100 shadow-sm">
+                                <img src="images/papers/womens-bargaining.svg" class="card-img-top" alt="Women's Bargaining Power paper">
+                                <div class="card-body">
+                                    <h5 class="card-title">Building Resilience through Women&rsquo;s Bargaining Power during the Pandemic</h5>
+                                    <p class="text-muted small mb-2"><strong>Authors:</strong> Singh, H., Pandey, V.</p>
+                                    <p class="text-muted small mb-3"><em>Submitted</em></p>
+                                    <div class="mt-3">
+                                        <a href="research.html#womens-bargaining" class="btn btn-primary btn-sm">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-Econ first year Macro lecture [notes](https://github.com/GitHarpreet/Notes/blob/main/Graduate_Macroeconomics_Notes.pdf) - 2024
+                        <div class="col-xl-3 col-lg-4 col-md-6">
+                            <div class="card paper-card h-100 shadow-sm">
+                                <img src="images/papers/canal-placement.svg" class="card-img-top" alt="Canal Placement project">
+                                <div class="card-body">
+                                    <h5 class="card-title">Canal Placement: A Political or Geographical Phenomenon</h5>
+                                    <p class="text-muted small mb-2"><strong>Author:</strong> Harpreet Singh</p>
+                                    <p class="text-muted small mb-3"><em>Working paper</em></p>
+                                    <div class="mt-3">
+                                        <a href="research.html#canal-placement" class="btn btn-primary btn-sm">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
 
-The projects I am currently working on are here: [Projects]({{ "/projects" | prepend: site.baseurl | prepend: site.url }})
+                <!-- Talks Section -->
+                <section class="talks-section mt-5">
+                    <h2 class="section-heading mb-4">Recent Talks &amp; Workshops</h2>
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <div id="talks-list" class="list-group list-group-flush" data-source="data/talks.json?v=20260730" data-limit="5"></div>
+                            <div class="mt-3">
+                                <a href="talks.html" class="btn btn-outline-primary btn-sm">
+                                    <i class="bi bi-mic-fill me-1"></i>View All Talks
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
 
-Feel free to contact me to talk about [research]({{ "/researches" | prepend: site.baseurl | prepend: site.url }}), sports, or anything interesting [(here)](https://sites.google.com/view/hpsingh/booking).
+                <!-- Beyond Research Section -->
+                <section class="beyond-section mt-5">
+                    <h2 class="section-heading mb-4">Beyond Research</h2>
+                    <div class="row g-4">
+                        <div class="col-xl-3 col-md-6">
+                            <div class="card beyond-card h-100 shadow-sm">
+                                <div class="card-body">
+                                    <h6 class="card-title"><i class="bi bi-snow2 me-2 text-primary"></i>Skiing</h6>
+                                    <p class="card-text small mb-0">
+                                        Started skiing in the winter of 2024 &mdash; loved it instantly.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-md-6">
+                            <div class="card beyond-card h-100 shadow-sm">
+                                <div class="card-body">
+                                    <h6 class="card-title"><i class="bi bi-bicycle me-2 text-primary"></i>Biking</h6>
+                                    <p class="card-text small mb-0">
+                                        Bike commuting from home to campus most days.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-md-6">
+                            <div class="card beyond-card h-100 shadow-sm">
+                                <div class="card-body">
+                                    <h6 class="card-title"><i class="bi bi-cup-hot me-2 text-primary"></i>Soccer &amp; Volleyball</h6>
+                                    <p class="card-text small mb-0">
+                                        Weekly PhD-students-vs-faculty soccer, plus McGill intramural volleyball.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-md-6">
+                            <div class="card beyond-card h-100 shadow-sm">
+                                <div class="card-body">
+                                    <h6 class="card-title"><i class="bi bi-graph-up-arrow me-2 text-primary"></i>Running</h6>
+                                    <p class="card-text small mb-0">
+                                        Chasing a faster 10K &mdash; see <a href="outdoor.html">Outdoor</a> for current pace.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-3">
+                        <a href="outdoor.html" class="btn btn-outline-primary btn-sm"><i class="bi bi-tree-fill me-1"></i>More on the Outdoor page</a>
+                    </div>
+                </section>
+            </main>
+        </div>
+    </div>
 
-I started writing blogs on Economics in day to day life and also on PhD admission and PhD life, bi-weekly on Substack. [Substack link](https://harpreetsingh511.substack.com/)
+    <!-- Footer -->
+    <footer class="footer mt-5 py-4 bg-light">
+        <div class="container text-center">
+            <p class="text-muted mb-0">
+                &copy; 2026 Harpreet Singh. All rights reserved.
+            </p>
+        </div>
+    </footer>
 
-<div class="divider"></div>
-
-</section>
-
-<section>
-
-	<div class="center">
-		<h1 class="title">Recent Activites</h1>
-	</div>
-
-	<div class="divider"></div>
-
-	{% assign sorted = ((site.documents | sort: date) | reverse) %}
-	{% assign recent_activities = "" | split: "/" %}
-	{% for post in sorted limit:5 %}
-		{% assign recent_activities = recent_activities | push: post %}
-	{% endfor %}
-	{% assign recent_activities = (recent_activities | group_by: "type") %}
-	{% for group in recent_activities %}
-		{% assign anitem = group.items | first %}
-		<h3 class="code" style="text-transform: capitalize;">{{ anitem.type }}</h3>
-		{% for item in group.items %}
-			<ul>
-				<li>
-					<div class="title">
-						<a href="{{ item.url | prepend: site.baseurl | prepend: site.url }}">
-							<img src="{{ item.imageurl }}" alt="" style="width: 100%;">
-							{{ item.title }}
-						</a>
-					</div>
-				</li>
-			</ul>
-    {% endfor %}
-	{% endfor %}
-
-</section>
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/talks.js?v=20260730"></script>
+    <!-- Theme Toggle JS -->
+    <script src="js/theme-toggle.js"></script>
+</body>
+</html>

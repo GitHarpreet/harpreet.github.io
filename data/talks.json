@@ -1,0 +1,67 @@
+{
+  "talks": [
+    {
+      "title": "Advanced Economic Theory (Teaching Assistant)",
+      "venue": "McGill University",
+      "date": "2024-09-01",
+      "talk_type": "Teaching assistantship",
+      "location": "Montreal, Canada"
+    },
+    {
+      "title": "Microeconomic Theory, Graduate Level (Teaching Assistant)",
+      "venue": "McGill University",
+      "date": "2024-09-01",
+      "talk_type": "Teaching assistantship",
+      "location": "Montreal, Canada"
+    },
+    {
+      "title": "Math Camp for Economics PhD Students (Instructor)",
+      "venue": "McGill University",
+      "date": "2024-08-15",
+      "talk_type": "Instructor session",
+      "location": "Montreal, Canada"
+    },
+    {
+      "title": "Current Economic Problems (Teaching Assistant)",
+      "venue": "McGill University",
+      "date": "2024-09-02",
+      "talk_type": "Teaching assistantship",
+      "location": "Montreal, Canada"
+    },
+    {
+      "title": "Microeconomic Theory, Econ 230D2 (Teaching Assistant)",
+      "venue": "McGill University",
+      "date": "2024-01-08",
+      "talk_type": "Teaching assistantship",
+      "location": "Montreal, Canada"
+    },
+    {
+      "title": "Microeconomic Theory, Econ 230D1 (Teaching Assistant)",
+      "venue": "McGill University",
+      "date": "2023-09-01",
+      "talk_type": "Teaching assistantship",
+      "location": "Montreal, Canada"
+    },
+    {
+      "title": "Field Experiments Summer School (5 sessions, Instructor)",
+      "venue": "Institute of Rural Management Anand (IRMA)",
+      "date": "2023-06-01",
+      "talk_type": "Summer school",
+      "location": "India / United States (virtual)"
+    },
+    {
+      "title": "Stata Workshop: Impact Evaluation (MBA-PRM)",
+      "venue": "Institute of Rural Management Anand (IRMA)",
+      "date": "2022-06-01",
+      "talk_type": "Workshop",
+      "location": "Anand, India"
+    },
+    {
+      "title": "Stata Workshop: Field Experiments (MBA-PRM)",
+      "venue": "Institute of Rural Management Anand (IRMA)",
+      "date": "2021-06-01",
+      "talk_type": "Workshop",
+      "location": "Anand, India"
+    }
+  ]
+}

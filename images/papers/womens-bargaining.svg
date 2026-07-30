@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 220">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6ca6c1"/>
+      <stop offset="100%" stop-color="#4c8f8d"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="220" fill="url(#g)"/>
+  <text x="200" y="92" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#ffffff" text-anchor="middle">Women's Bargaining</text>
+<text x="200" y="118" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#ffffff" text-anchor="middle">Power & Resilience</text>
+
+</svg>

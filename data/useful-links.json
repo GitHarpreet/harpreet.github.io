@@ -1,0 +1,46 @@
+{
+  "links": [
+    {
+      "title": "My Substack &mdash; Economics in Everyday Life & PhD Life",
+      "url": "https://harpreetsingh511.substack.com/",
+      "category": "Blog",
+      "type": "link",
+      "description": "Bi-weekly writing on economics in day-to-day life, and on PhD admissions and PhD life."
+    },
+    {
+      "title": "Lecture &amp; Course Notes (GitHub)",
+      "url": "https://github.com/GitHarpreet/Notes",
+      "category": "Teaching",
+      "type": "link",
+      "description": "Math Camp notes and Graduate Macroeconomics lecture notes."
+    },
+    {
+      "title": "McGill Department of Economics",
+      "url": "https://www.mcgill.ca/economics/",
+      "category": "Department",
+      "type": "link",
+      "description": "My home department."
+    },
+    {
+      "title": "J-PAL South Asia",
+      "url": "https://www.povertyactionlab.org/regions/south-asia",
+      "category": "Research",
+      "type": "link",
+      "description": "Where I worked as a Senior Research Associate on the Payment and Governance Research Program."
+    },
+    {
+      "title": "Institute of Rural Management Anand (IRMA)",
+      "url": "https://www.irma.ac.in/",
+      "category": "Research",
+      "type": "link",
+      "description": "Verghese Kurien Policy Lab, where I was a Research Fellow / Research Associate."
+    },
+    {
+      "title": "Restaurant &amp; Cafe Map (Google My Maps)",
+      "url": "https://www.google.com/maps/d/u/0/edit?mid=1r4nNfrihS5cVc2iazTN7HQjxKwLxME8&ll=20.28921465212167%2C85.83724746916802&z=13",
+      "category": "Food",
+      "type": "link",
+      "description": "A food map I'm building with a friend &mdash; work in progress."
+    }
+  ]
+}

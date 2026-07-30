@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Talks - Harpreet Singh</title>
+    <title>Notes - Harpreet Singh</title>
 
     <!-- Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -30,13 +30,13 @@
                         <a class="nav-link" href="research.html">Research</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="notes.html">Notes</a>
+                        <a class="nav-link active" href="notes.html">Notes</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="cv.html">CV</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="talks.html">Talks</a>
+                        <a class="nav-link" href="talks.html">Talks</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="useful-links.html">Useful Links</a>
@@ -81,21 +81,67 @@
             </aside>
 
             <main class="col-lg-10 col-md-9 main-content">
-                <div class="row mb-4">
+                <h1 class="section-heading">Notes &amp; Resources</h1>
+                <p class="lead">Lecture and course notes I&rsquo;ve written up, shared on GitHub.</p>
+                <div class="row g-4">
                     <div class="col-12">
-                        <h1 class="section-heading">Talks &amp; Workshops</h1>
-                        <p class="lead">
-                            Instructor sessions, workshops, and summer schools I&rsquo;ve delivered.
-                        </p>
-                    </div>
-                </div>
-                <section class="talks-section">
-                    <div class="card shadow-sm">
-                        <div class="card-body">
-                            <div id="all-talks-list" class="list-group list-group-flush" data-source="data/talks.json?v=20260730"></div>
+                        <div class="card software-card h-100 shadow-sm">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-start mb-3">
+                                    <h4 class="card-title mb-0">
+                                        <i class="bi bi-file-earmark-pdf me-2 text-primary"></i>
+                                        Econ PhD Math Camp Notes
+                                    </h4>
+                                    <span class="badge bg-success">2023</span>
+                                </div>
+                                <p class="card-text">
+                                    Notes from the mathematics refresher course I delivered for the incoming Economics PhD cohort at McGill University.
+                                </p>
+                                <div class="mb-3">
+                                    <span class="badge bg-secondary me-1">Math Camp</span>
+                                    <span class="badge bg-secondary">PDF</span>
+                                </div>
+                                <div class="d-flex gap-2 flex-wrap">
+                                    <a href="https://github.com/GitHarpreet/Notes/blob/main/Econ_PhD_Math_Camp_notes.pdf" class="btn btn-primary btn-sm" target="_blank" rel="noopener noreferrer">
+                                        <i class="bi bi-file-earmark-pdf me-1"></i> View PDF
+                                    </a>
+                                    <a href="https://github.com/GitHarpreet/Notes" class="btn btn-outline-primary btn-sm" target="_blank" rel="noopener noreferrer">
+                                        <i class="bi bi-github me-1"></i> GitHub
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </section>
+
+                    <div class="col-12">
+                        <div class="card software-card h-100 shadow-sm">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-start mb-3">
+                                    <h4 class="card-title mb-0">
+                                        <i class="bi bi-file-earmark-pdf me-2 text-primary"></i>
+                                        Graduate Macroeconomics Notes
+                                    </h4>
+                                    <span class="badge bg-success">2024</span>
+                                </div>
+                                <p class="card-text">
+                                    First-year graduate Macroeconomics lecture notes.
+                                </p>
+                                <div class="mb-3">
+                                    <span class="badge bg-secondary me-1">Macroeconomics</span>
+                                    <span class="badge bg-secondary">PDF</span>
+                                </div>
+                                <div class="d-flex gap-2 flex-wrap">
+                                    <a href="https://github.com/GitHarpreet/Notes/blob/main/Graduate_Macroeconomics_Notes.pdf" class="btn btn-primary btn-sm" target="_blank" rel="noopener noreferrer">
+                                        <i class="bi bi-file-earmark-pdf me-1"></i> View PDF
+                                    </a>
+                                    <a href="https://github.com/GitHarpreet/Notes" class="btn btn-outline-primary btn-sm" target="_blank" rel="noopener noreferrer">
+                                        <i class="bi bi-github me-1"></i> GitHub
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </main>
         </div>
     </div>
@@ -111,7 +157,6 @@
 
     <!-- Bootstrap 5 JS Bundle -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="js/talks.js?v=20260730"></script>
     <!-- Theme Toggle JS -->
     <script src="js/theme-toggle.js"></script>
 </body>
